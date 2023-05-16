@@ -166,17 +166,21 @@ header ul li a:hover{
     display: flex;
     width: 100%;
     border: 1px solid #d1d1d1d1;
+    background-image: url(../img/fundoMenu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
 #ProdPrincipal{
     display: flex;
     width: 100%;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 #ProdPrincipal h2{
     font-size: 6em;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -217,35 +221,41 @@ header ul li a:hover{
 
 #MAC{
     background-image: url(../img/painelPrincipal.jpg);
+    background-color: #F3F3F3;
     width: 350px;
     height: 413px;
     margin-right: -25px;
     background-position: -330px 0;
 }
 
+#prodSecunda{
+    width: 100%;
+}
+
 #painel1{
+    background-color: #F3F3F3;
     background-image: url(../img/painel1.jpg);
     width: 234px;
-    height: 99px;
+    height: 110px;
 }
 
 #painel2{
     background-image: url(../img/painel2.jpg);
     width: 234px;
-    height: 99px;
+    height: 110px;
     border-top: 1px solid #d1d1d1d1;
 }
 
 #painel3{
     background-image: url(../img/painel3.jpg);
     width: 234px;
-    height: 99px;
+    height: 110px;
     border-top: 1px solid #d1d1d1d1;
 }
 
 #painel4{
     background-image: url(../img/painel4.jpg);
     width: 234px;
-    height: 99px;
+    height: 110px;
     border-top: 1px solid #d1d1d1d1;
 }
