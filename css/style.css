@@ -159,3 +159,93 @@ header ul li a:hover{
     border-radius: 5px;
     transition: all ease-in 100ms;
 }
+
+/*Produtos novos*/
+#produtosN{
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
+    border: 1px solid #d1d1d1d1;
+}
+
+#ProdPrincipal{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+#ProdPrincipal h2{
+    font-size: 6em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#ProdPrincipal p{
+    color: #8f8f8fd1;
+    font-size: 0.9em;
+    inline-size: 300px;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+
+#ProdPrincipal h3{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#ProdPrincipal span{
+    color: #78A305;
+}
+
+#ProdPrincipal button{
+    background: linear-gradient(0deg, #71AC05 0%, #93C904 100%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px #406103;
+    width: 180px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+#ProdPrincipal button:hover{
+    background: linear-gradient(0deg, #93C904 0%, #71AC05 100%);
+    cursor: pointer;
+    transition: all ease-in 100ms;
+}
+
+#MAC{
+    background-image: url(../img/painelPrincipal.jpg);
+    width: 350px;
+    height: 413px;
+    margin-right: -25px;
+    background-position: -330px 0;
+}
+
+#painel1{
+    background-image: url(../img/painel1.jpg);
+    width: 234px;
+    height: 99px;
+}
+
+#painel2{
+    background-image: url(../img/painel2.jpg);
+    width: 234px;
+    height: 99px;
+    border-top: 1px solid #d1d1d1d1;
+}
+
+#painel3{
+    background-image: url(../img/painel3.jpg);
+    width: 234px;
+    height: 99px;
+    border-top: 1px solid #d1d1d1d1;
+}
+
+#painel4{
+    background-image: url(../img/painel4.jpg);
+    width: 234px;
+    height: 99px;
+    border-top: 1px solid #d1d1d1d1;
+}
