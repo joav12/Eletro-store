@@ -230,7 +230,7 @@ header ul li a:hover{
 
 .paineis{
     width: 234px;
-    height: 102.3px;
+    height: 104px;
 }
 
 .bordaPaineis{
@@ -239,6 +239,8 @@ header ul li a:hover{
 
 #painel1{
     background-image: url(../img/painel1.jpg);
+    width: 234px;
+    height: 99px;
 }
 
 #painel2{
