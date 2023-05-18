@@ -321,12 +321,14 @@ header ul li a:hover{
 .formaPag1{
     display: flex;
     border-right: 1px dashed rgb(153, 153, 153);
+    margin-left: 5px;
 }
 
 .pag1{
-    background-position: -200px -8px;
-    width: 93px;
+    background-position: -219px -4px;
+    width: 56px;
     height: 40px;
+}
 }
 
 .pag2{
@@ -336,31 +338,42 @@ header ul li a:hover{
 }
 
 .pag3{
-    background-position: -14px -8px;
+    background-position: -83px -8px;
     width: 46px;
     height: 37px;
 }
 
 .pag4{
-    background-position: -14px -8px;
+    background-position: -147px -8px;
     width: 46px;
     height: 37px;
 }
 
 .pag5{
-    background-position: -14px -8px;
+    background-position: -17px -55px;
     width: 46px;
     height: 37px;
 }
 
 .pag6{
-    background-position: -14px -8px;
-    width: 46px;
+    background-position: -155px -50px;
+    width: 55px;
     height: 37px;
 }
 
 .pag7{
-    background-position: -14px -8px;
+    background-image: url(../home.png);
+    background-position: -457px -1536px;
     width: 46px;
+    height: 37px;
+}
+
+.pagIMG{
+    margin-top: 5px;
+}
+
+.pag8{
+    background-position: -223px -50px;
+    width: 70px;
     height: 37px;
 }
