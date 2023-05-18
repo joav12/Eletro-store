@@ -171,6 +171,7 @@ header ul li a:hover{
     background-attachment: fixed;
     background-size: cover;
     background-position: center top;
+    margin-bottom: 25px;
 }
 
 #ProdPrincipal{
@@ -201,7 +202,7 @@ header ul li a:hover{
     color: #78A305;
 }
 
-#ProdPrincipal button{
+#ProdPrincipal button, .lista button{
     background: linear-gradient(0deg, #71AC05 0%, #93C904 100%);
     color: white;
     font-size: 1.5em;
@@ -213,7 +214,7 @@ header ul li a:hover{
     margin-left: 10px;
 }
 
-#ProdPrincipal button:hover{
+#ProdPrincipal button, .lista button:hover{
     background: linear-gradient(0deg, #93C904 0%, #71AC05 100%);
     cursor: pointer;
     transition: all ease-in 100ms;
@@ -253,4 +254,113 @@ header ul li a:hover{
 
 #painel4{
     background-image: url(../img/painel4.jpg);
+}
+
+/*Produtos em destaque*/
+.titulo{
+    font-size: 1.2em;
+    color: #7a7a7a;
+}
+
+#prodDesta{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.lista ul{
+    display: flex;
+}
+
+.lista li{
+    padding: 10px;
+}
+
+.lista h5{
+    font-size: 0.72em;
+    margin-bottom: 10px;
+}
+
+.lista p{
+    font-size: 0.65em;
+}
+
+.lista button{
+    font-size: 0.8em;
+    width: 80px;
+    height: 25px;
+}
+
+.marginBotton{
+    margin-bottom: 10px;
+}
+
+#promocoesAside{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Banner grande*/
+.bannerG{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*Formas de pagamento*/
+.tituloFP{
+    color: #01A8E7;
+    font-weight: bold;
+}
+
+.formaFlex{
+    display: flex;
+    padding: 5px;
+}
+
+.formaPag1{
+    display: flex;
+    border-right: 1px dashed rgb(153, 153, 153);
+}
+
+.pag1{
+    background-position: -200px -8px;
+    width: 93px;
+    height: 40px;
+}
+
+.pag2{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
+}
+
+.pag3{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
+}
+
+.pag4{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
+}
+
+.pag5{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
+}
+
+.pag6{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
+}
+
+.pag7{
+    background-position: -14px -8px;
+    width: 46px;
+    height: 37px;
 }
